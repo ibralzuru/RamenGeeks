@@ -259,3 +259,99 @@
     }
     
 }
+@media (max-width: 420px) {
+    
+
+    #central-container {
+        width: 25em;
+        height: 12em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    #container-slider {
+        margin-top: 2em;
+        width: 25em;
+        height: 12em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .slide img {
+        width: 25em;
+        height: 12em;
+        border-radius: 0.5em;
+    }
+
+    #aboutUs {
+        width: 25em;
+        height: 40em;
+        background-color: #f04622;
+        text-align: center;
+        border-radius: 0.5em;
+        margin-top: -1em;
+
+    }
+    #aboutUs h1 {
+        
+     font-size: 2em;
+    }
+    #aboutUs p{
+        font-size: 1em;
+
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    #menu-links {
+        height: 3em;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pages {
+        padding: 0.1em;
+        margin: 0.3em;
+    }
+    .pages a {
+        font-size: 1.5em;
+    }
+
+    #container-menu {
+        margin-top: -2em;
+
+    }
+    iframe{
+        margin: 0em;
+        height: 100px;
+    }
+    #loren{
+        max-width: 90%;
+    }
+    #middle-container{
+        margin-top: 1em;
+        width: 38em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+     margin-top: 1em;
+        
+    }
+    #sign-up{
+      padding-bottom: 3em;
+    }
+    #words-Lorem{
+        max-width: 80%;
+    }
+    
+}
