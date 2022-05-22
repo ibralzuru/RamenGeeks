@@ -1,0 +1,44 @@
+#maps-box {
+    height: 20em;
+    width: 50em;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    margin-bottom: 5em;
+
+}
+
+.ramen-Maps {
+    height: 20em;
+    width: 25em;
+    padding: 1em;
+
+}
+
+#content-box {
+    height: 20em;
+    width: 25em;
+}
+
+.local-description p {
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#loren {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 1em;
+    padding: 0 2em 0 3em;
+
+}
+
+#maps-titlle {
+    color: #f04622;
+}
+
+.local-description h3 {
+    font-size: 1.2em;
+    margin-bottom: 0rem;
+
+}

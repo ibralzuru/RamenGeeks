@@ -1,0 +1,147 @@
+form {
+    width: 400px;
+    height: 480px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px #444;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    margin: 10px;
+}
+
+form p {
+    color: tomato;
+    font-size: 10px;
+    margin-top: -5px;
+}
+
+input {
+    width: 100%;
+    margin: 6px 0;
+    padding: 6px 0;
+    outline: 0;
+    font-size: 20px;
+}
+
+input[type=submit] {
+
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color .5s;
+    font-size: 20px;
+    transition: 1s;
+}
+
+input[type=submit]:hover {
+    background-color: #f04622;
+    color: #fff;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    font-size: 15px;
+}
+
+.error {
+    border-color: tomato;
+}
+
+
+
+#nst {
+    width: 400px;
+    height: 300px;
+    padding: 8px;
+    margin: 8px;
+    flex-direction: column;
+    box-shadow: 2px 2px 6px #444;
+    border-radius: 15px;
+    display: flex;
+}
+
+div div span {
+    font-size: 15px;
+    color: white;
+    padding: 8px;
+    line-height: 120%;
+}
+
+#nst h4 {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    margin: 5px;
+    padding: 10px;
+    text-decoration: underline;
+}
+
+#fondo {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#entrar {
+    height: 320px;
+}
+
+div form h3 {
+    
+    text-align: center;
+}
+
+
+#middle-container{
+    height: 35em;
+    width: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sign-up{
+    height: 30em;
+    width: 25em;
+    padding: 0em 0em 0em 1em;
+    font-size: 1em;  
+
+}
+#words-Lorem{
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

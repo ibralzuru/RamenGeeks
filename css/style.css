@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e9e6df;
+    color: #111;
+    height: 100%;
+    width: 100%;
+    /*  font-family: 'IBM Plex Mono', sans-serif; */
+    font-family: 'Bebas Neue';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#menu-top {
+    height: 14em;
+    width: 96em;
+    background-color: #e9e6df;
+
+}
+
+#top-logo {
+    height: 10em;
+    width: 96em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-logo img {
+    height: 10em;
+    width: 10em;
+
+
+
+}
+
+#menu-links {
+    height: 3em;
+    width: 96em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pages {
+    padding: 0.5em;
+    margin: 1.2em;
+}
+
+
+.pages a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.3em;
+    transition: 0.5s;
+    font-weight: bold;
+
+}
+
+.pages:hover a {
+    color: #f04622;
+    transition: 0.5s;
+
+
+}
+
+.carousel {
+    height: 20em;
+    width: 50em;
+
+
+}
+
+.slide img {
+    height: 20em;
+    width: 60em;
+
+}
+
+#central-container {
+    width: 60em;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-slider {
+
+    width: 60em;
+    height: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#aboutUs {
+    width: 46em;
+    height: 18em;
+    background-color: #f04622;
+    text-align: center;
+    border-radius: 0.5em;
+    margin-top: 4em;
+    margin-bottom: 3em;
+
+}
+
+#aboutUs p {
+    font-size: 0.8em;
+    font-family: 'Roboto', sans-serif;
+    margin: 0.5;
+    text-align: left;
+    padding: 0em 1.5em 0em 1.5em;
+}
+
+#aboutUs h1 {
+    padding-top: 0.5em;
+    font-size: 2.5em;
+    font-family: 'Bebas Neue';
+}
+
+.baners {
+
+    width: 100vw;
+    max-width: 1600px;
+    min-width: 320px;
+    margin: auto;
+    position: relative;
+
+
+}
+
+.baners img {
+    width: 100%;
+
+}
+
+.box-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#baner1 {
+    color: #e9e6df;
+
+
+
+}
+
+#baner1 a {
+    color: #e9e6df;
+    text-decoration: none;
+    background-color: #f04622;
+    padding: 0.7em;
+    border-radius: 0.3em;
+}
+
+
+#baner2 {
+    color: #e9e6df;
+    margin: 4em
+}
+
+#baner2 a {
+    color: #e9e6df;
+    text-decoration: none;
+    background-color: #f04622;
+    padding: 0.7em;
+    border-radius: 0.2em;
+}
+footer {
+    height: 10em;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+ 
+
+
+ 
+  }
+ 
+ 
+  .buttons a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: #111;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+ 
+ 
+  }
+ 
+  .buttons a:hover {
+    transform: scale(1.3);
+ 
+    background-color: #f1f1f1;
+ 
+  }
+ 
+  #facebook:hover {
+    background-color: #3c70a4;
+  }
+ 
+  #twitter:hover {
+    background-color: #5bd1d7;
+  }
+ 
+  #google-plus:hover {
+    background-color: #ee4540;
+  }
+ 
+  #youtube:hover {
+    background-color: #c72c41;
+  }
+ 
+  #instagram:hover {
+    background-color: #ff0080;
+  }
+  footer div{
+  
+    align-items:center ;
+    justify-content: center;
+  }
+  footer div ul {
+    display: flex;
+  } 
+  
+   footer div li {
+    list-style-type: none;
+  } 
+   footer div a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  } 
+  footer div a:hover {
+    text-decoration: underline;
+  } 

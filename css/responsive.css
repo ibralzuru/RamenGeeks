@@ -1,0 +1,214 @@
+@media (max-width: 830px) {
+
+    #central-container {
+        margin-top: 2em;
+        width: 40em;
+        height: 16em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-slider {
+
+        width: 40em;
+        height: 16em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .slide img {
+
+        width: 40em;
+        height: 16em;
+
+
+    }
+
+    #aboutUs {
+        width: 40em;
+        height: 18em;
+        background-color: #f04622;
+        text-align: center;
+        border-radius: 0.5em;
+        margin-top: 0.5em;
+
+    }
+    #middle-container{
+        margin-top: 4em;
+        height: 35em;
+        width: 50em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #sign-up{
+        height: 30em;
+        width: 25em;
+        padding: 0em 0em 0em 1em;
+        font-size: 1em;  
+    
+    }
+    #words-Lorem{
+       
+        font-size: 1.1em;
+        font-family: 'Roboto', sans-serif; 
+    }
+    
+
+}
+
+@media (max-width: 650px) {
+
+    #central-container {
+        width: 30em;
+        height: 16em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Controls {
+        width: 30em;
+        height: 16em;
+    }
+
+    #container-slider {
+
+        width: 30em;
+        height: 16em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .slide img {
+        width: 30em;
+        height: 16em;
+
+    }
+
+    #aboutUs {
+        width: 30em;
+        height: 23em;
+        background-color: #f04622;
+        text-align: center;
+        border-radius: 0.5em;
+        margin-top: 0.5em;
+
+    }
+
+    #maps-box {
+        height: 20em;
+        width: 30em;
+        display: flex;
+        flex-direction: row;
+        padding: 2em;
+    }
+
+    .ramen-Maps {
+        height: 20em;
+        width: 15em;
+        padding: 1em;
+
+    }
+
+    #content-box {
+        height: 20em;
+        width: 15em;
+    }
+
+    .local-description p {
+        font-size: 0.6em;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #loren {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 0.5em;
+        padding: 0 2em 0 3em;
+
+    }
+
+    #maps-titlle {
+        color: #f04622;
+    }
+
+    .local-description h3 {
+        font-size: 1em;
+        margin-bottom: 0rem;
+
+    }
+    #letters-maps{
+        margin-left: 0.5em;
+    }
+    .maps-locations{
+        margin-top: 0.5em;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    #central-container {
+        width: 24em;
+        height: 12em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2em;
+    }
+
+    #container-slider {
+        margin-top: 2em;
+        width: 24em;
+        height: 12em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .slide img {
+        width: 24em;
+        height: 12em;
+        border-radius: 0.5em;
+    }
+
+    #aboutUs {
+        width: 24em;
+        height: 28em;
+        background-color: #f04622;
+        text-align: center;
+        border-radius: 0.5em;
+        margin-top: -1em;
+
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    #menu-links {
+        height: 3em;
+        width: 96em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pages {
+        padding: 0.1em;
+        margin: 1.1em;
+    }
+
+    #container-menu {
+        margin-top: -2em;
+
+    }
+}
