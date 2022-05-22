@@ -263,7 +263,7 @@
     
 
     #central-container {
-        width: 25em;
+        width: 22em;
         height: 12em;
         display: flex;
         align-items: center;
@@ -273,7 +273,7 @@
 
     #container-slider {
         margin-top: 2em;
-        width: 25em;
+        width: 22em;
         height: 12em;
         display: flex;
         align-items: center;
@@ -282,14 +282,14 @@
     }
 
     .slide img {
-        width: 25em;
+        width: 22em;
         height: 12em;
         border-radius: 0.5em;
     }
 
     #aboutUs {
-        width: 25em;
-        height: 40em;
+        width: 22em;
+        height: 45em;
         background-color: #f04622;
         text-align: center;
         border-radius: 0.5em;
@@ -298,7 +298,7 @@
     }
     #aboutUs h1 {
         
-     font-size: 2em;
+     font-size: 1.6em;
     }
     #aboutUs p{
         font-size: 1em;
@@ -326,9 +326,11 @@
     }
 
     #container-menu {
-        margin-top: -2em;
+        margin-top: -3em;
+        margin-bottom: -3em;
 
     }
+   
     iframe{
         margin: 0em;
         height: 100px;
@@ -352,6 +354,16 @@
     }
     #words-Lorem{
         max-width: 80%;
+    }
+    form {
+        width: 370px;
+        height: 490px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        margin-bottom: 7px;
+        margin-top: 10px;
+        margin: 10px;
     }
     
 }
