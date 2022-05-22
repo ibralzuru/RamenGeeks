@@ -1,5 +1,5 @@
 #maps-box {
-    height: 20em;
+    height: 29em;
     width: 50em;
     display: flex;
     flex-direction: row;
@@ -12,6 +12,7 @@
     height: 20em;
     width: 25em;
     padding: 1em;
+    
 
 }
 
@@ -21,7 +22,7 @@
 }
 
 .local-description p {
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -30,6 +31,8 @@
     text-align: center;
     margin: 1em;
     padding: 0 2em 0 3em;
+    max-width: 800px;
+    
 
 }
 
@@ -42,3 +45,7 @@
     margin-bottom: 0rem;
 
 }
+iframe{
+    margin: 0.5em;
+}
+

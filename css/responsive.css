@@ -29,7 +29,7 @@
 
     #aboutUs {
         width: 40em;
-        height: 18em;
+        height: 32em;
         background-color: #f04622;
         text-align: center;
         border-radius: 0.5em;
@@ -57,9 +57,13 @@
         font-size: 1.1em;
         font-family: 'Roboto', sans-serif; 
     }
+    #loren{
+        max-width: 100%;
+    }
+}
     
 
-}
+
 
 @media (max-width: 650px) {
 
@@ -94,13 +98,14 @@
 
     #aboutUs {
         width: 30em;
-        height: 23em;
+        height: 41em;
         background-color: #f04622;
         text-align: center;
         border-radius: 0.5em;
         margin-top: 0.5em;
 
     }
+    
 
     #maps-box {
         height: 20em;
@@ -150,13 +155,26 @@
     .maps-locations{
         margin-top: 0.5em;
     }
-
+    iframe{
+        margin: 0em;
+        height: 100px;
+    }
+    #loren{
+        max-width: 70%;
+    }
+    #middle-container{
+        margin-top: 1em;
+        
+    }
 }
 
+
+
 @media (max-width: 500px) {
+    
 
     #central-container {
-        width: 24em;
+        width: 28em;
         height: 12em;
         display: flex;
         align-items: center;
@@ -166,7 +184,7 @@
 
     #container-slider {
         margin-top: 2em;
-        width: 24em;
+        width: 28em;
         height: 12em;
         display: flex;
         align-items: center;
@@ -175,18 +193,22 @@
     }
 
     .slide img {
-        width: 24em;
+        width: 28em;
         height: 12em;
         border-radius: 0.5em;
     }
 
     #aboutUs {
-        width: 24em;
-        height: 28em;
+        width: 28em;
+        height: 36em;
         background-color: #f04622;
         text-align: center;
         border-radius: 0.5em;
         margin-top: -1em;
+
+    }
+    #aboutUs p{
+        font-size: 1em;
 
     }
 
@@ -196,7 +218,7 @@
 
     #menu-links {
         height: 3em;
-        width: 96em;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -211,4 +233,29 @@
         margin-top: -2em;
 
     }
+    iframe{
+        margin: 0em;
+        height: 100px;
+    }
+    #loren{
+        max-width: 90%;
+    }
+    #middle-container{
+        margin-top: 1em;
+        width: 38em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+     margin-top: 1em;
+        
+    }
+    #sign-up{
+      padding-bottom: 3em;
+    }
+    #words-Lorem{
+        max-width: 80%;
+    }
+    
 }

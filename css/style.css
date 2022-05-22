@@ -15,6 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 #container {
@@ -26,22 +27,27 @@ body {
 
 #menu-top {
     height: 14em;
-    width: 96em;
+    width: 100%;
     background-color: #e9e6df;
+    margin-bottom: 3em;
+   
 
 }
 
 #top-logo {
     height: 10em;
-    width: 96em;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+   
 }
 
 #top-logo img {
-    height: 10em;
-    width: 10em;
+    height: 12em;
+    width: 12em;
+    margin-bottom: 2em;
+    margin-top: 1em;
 
 
 
@@ -49,7 +55,7 @@ body {
 
 #menu-links {
     height: 3em;
-    width: 96em;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,9 +70,12 @@ body {
 .pages a {
     text-decoration: none;
     color: #111;
-    font-size: 1.3em;
     transition: 0.5s;
     font-weight: bold;
+    padding: 5px 2px;
+    font-weight: 700;
+    font-size: 28px; 
+    
 
 }
 
@@ -76,6 +85,19 @@ body {
 
 
 }
+#menuButton{
+    background-color: #f04523;
+    padding: 5px 14px 5px 14px;
+    border-radius: 10px;
+    
+}
+#menuButton:hover{
+   color: #f1f1f1;
+    padding: 5px 14px 5px 14px;
+    border-radius: 10px;
+    transform:rotateY(344deg);
+}
+
 
 .carousel {
     height: 20em;
@@ -108,9 +130,11 @@ body {
 
 }
 
+
+
 #aboutUs {
-    width: 46em;
-    height: 18em;
+    width: 50em;
+    height: 27em;
     background-color: #f04622;
     text-align: center;
     border-radius: 0.5em;
@@ -120,8 +144,8 @@ body {
 }
 
 #aboutUs p {
-    font-size: 0.8em;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    font-family: 'BebasNeue-Regular', sans-serif;
     margin: 0.5;
     text-align: left;
     padding: 0em 1.5em 0em 1.5em;
@@ -130,13 +154,13 @@ body {
 #aboutUs h1 {
     padding-top: 0.5em;
     font-size: 2.5em;
-    font-family: 'Bebas Neue';
+    font-family: 'BebasNeue-Regular', sans-serif;
 }
 
 .baners {
 
     width: 100vw;
-    max-width: 1600px;
+    max-width: 1920px;
     min-width: 320px;
     margin: auto;
     position: relative;
@@ -146,6 +170,8 @@ body {
 
 .baners img {
     width: 100%;
+    min-height: 11em;
+    
 
 }
 
