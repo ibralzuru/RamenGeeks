@@ -47,7 +47,7 @@
     }
     #sign-up{
         height: 30em;
-        width: 25em;
+        width: 80%;
         padding: 0em 0em 0em 1em;
         font-size: 1em;  
     
@@ -255,8 +255,9 @@
       padding-bottom: 3em;
     }
     #words-Lorem{
-        max-width: 80%;
+        max-width: 90%;
     }
+   
     
 }
 @media (max-width: 420px) {
@@ -381,6 +382,34 @@
     h6{
         font-size: 0.6em;
         text-align: center;
+    }
+    .ramen-Maps{
+        height: 12px;
+    }
+
+    #maps-titlle {
+        color: #f04622;
+    }
+
+   
+    #letters-maps{
+        margin-left: 0.2em;
+    }
+    .maps-locations{
+        margin-top: 0.9em;
+        margin-bottom: 1em;
+    }
+    iframe{
+        margin: 0em;
+        height: 120px;
+        padding-top: 0em;
+    }
+    #maps-box{
+        height: 25em;
+    width: 25em;
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
     }
     
 }
